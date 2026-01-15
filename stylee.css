@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body { font-family: 'Inter', sans-serif; }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #2F3E46; }
+::-webkit-scrollbar-thumb { background: #475E67; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #566F7A; }
+
+/* Fade Animation */
+.fade-in { animation: fadeIn 0.5s ease-in-out; }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
